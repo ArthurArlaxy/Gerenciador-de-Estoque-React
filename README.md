@@ -27,7 +27,7 @@ A aplicação permite:
 - **Cadastro de Itens**: adicione novos produtos ao estoque com nome, quantidade, categoria, etc.
 - **Edição de Itens**: atualize informações dos produtos existentes.
 - **Remoção de Itens**: exclua produtos do estoque.
-- **Vizualização de um Único Item**: Página com mais informaçoes do item.
+- **Vizualização de um Único Item**: Página com mais informações do item.
 - **Dashboard**: painel visual com resumo de itens, totais e categorias.
 - **Persistência Local**: os dados são armazenados no `localStorage`, mantendo o estado entre sessões.
 
