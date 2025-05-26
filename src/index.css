@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"Montserrat";
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+h1,h2{
+  padding: 1rem 0 1rem 0;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+header,main,footer{
+  padding: 0 1rem;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+nav{
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  color: #ccb4ff;
+}
+
+.mainNavigation{
+  color:#696969
+}
+
+.mainNavigation.active{
+  color: #ffffff;
+}
+
+.linkItems {
+  padding-bottom: .6rem;
+  border-bottom: 2px solid transparent;
+}
+
+.linkItems.active {
+  border-bottom: 2px solid white; /* ou outra cor de destaque */
+}
+
+main {
+  min-height: calc(100vh - 100px); /* ajuste esse valor para header + footer */
+  margin: 0 1rem;
+}
+
+footer{
+  text-align: center;
+}
+
+button{
+  background-color: black;
+  border: 2px solid black ;
+  padding: .5rem 1.5rem;
+  border-radius: .5rem;
+}
+
+button:hover{
+  border: 2px solid #9971f7 ;
+}
+
+button:focus{
+  border: 2px solid #ffffff ;
+}
+
+.btnExcluir{
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+.btnExcluir:hover{
+    border: 2px solid #ffffff;
+}
+
+.btnConfirmation{
+    background-color: #00bd10;
+    border: 2px solid #00bd10;
+    
+}
+
+.btnConfirmation:hover{
+    border: 2px solid #ffffff;
+}
+
+
+
+hr{
+  margin-bottom: 1rem;
+  border: 1px solid  #4e4e4e;
+}
+
+.inputsContainer{
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 1.2rem;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap:.3rem
+}
+
+input, select{
+  border: 1px solid #000 ;
+  background-color: #000000;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+input:hover, select:hover,textarea:hover{
+  border: 1px solid #9971f7;
+  transition: .5s;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+textarea{
+  width: 100%;
+  border: 1px solid #000 ;
+  background-color: #000000;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.mainUpdateSection{
+  display: flex;
+  gap:2rem;
+  align-items: center;
+}
+
+.cardsContainer{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.description{
+  font-size: 1.2rem;
+  padding-bottom: 2rem ;
+}
+
+.dates{
+  display: flex;
+  gap:3rem; 
+}

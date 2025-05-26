@@ -1,0 +1,18 @@
+.card{
+    flex: 1;
+    display: grid;
+    place-content:center;
+    text-align: center;
+    background: #000;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.cardItem{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: .6rem;
+    background: #000;
+    border-radius: .5rem;
+}
